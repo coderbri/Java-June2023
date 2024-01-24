@@ -23,4 +23,10 @@
 
 ## Projects
 
-(coming soon...)
+### 001 First Java Program
+A simple Java program named `FirstJava` designed to illustrate basic console output. The program introduces variables such as `myName`, `myAge`, `hometown`, and `state` to store information about a person. Utilizing `System.out.println` and `System.out.printf`, it prints details like the person's name, age, hometown, and state to the console. The code is structured to showcase concatenation and formatted output, providing a straightforward example for those learning Java.
+
+### 002 Café Java
+### 003 Alfred Bot
+
+(more coming soon...)
