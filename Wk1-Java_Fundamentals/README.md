@@ -4,17 +4,22 @@
 
 ## Topics Covered
 
-### [D1: Intro to Java // Java Fundamentals I](Lecture-Code/D1-Intro-to-Java/)
+### [D1: Intro to Java // Java Fundamentals I](Lecture-Code/D1-Intro-to-Java-Fundamentals-I/)
 - Variables & DataTypes
 - Conditional
 
-### [D2: Java Fundamentals, Part II](Lecture-Code/D2-Java-Fundamentals/)
+### [D2: Java Fundamentals, Part II](#)
 - Strings
 - Methods
 - Modularization
 - Type Casting
 
-### [D3: Java Fundamentals, Part III](Lecture-Code/D2-Java-Fundamentals/)
+### [D3: Java Fundamentals, Part III](#)
+- Data Structures and Loops
+- Fixed Arrays
+- ArrayLists
+- Loops
+- Maps
 
 ## Projects
 
