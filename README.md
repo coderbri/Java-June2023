@@ -6,8 +6,8 @@ Course Taken: ２０２３年０６月
 
 - **Java Fundamentals**
     - [#001: First Java](Wk1-Java_Fundamentals/001-First_Java)
+    - [#002: Café Java](Wk1-Java_Fundamentals/002-Cafe_Java)
     ---
-    - [#002: Café Java](#)
     - [#003: Alfred Bot](#)
     - [#004: Café Business Logic](#)
     - [#005: Puzzling](#)
