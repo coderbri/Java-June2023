@@ -1,7 +1,7 @@
-public class FirstJava {
-    // ? Entry Point Method AKA "Main" Method
-    public static void main( String[] args ) {
-        
+public class FirstJavaClass {
+    
+    static int number = 7;
+    void d1Code() {
         // Prining to console
         System.out.println( "Hello World" );
         
@@ -36,4 +36,31 @@ public class FirstJava {
         Integer result = $myCatsAge/favoriteNumber;
         System.out.println(result);
     }
+    
+    // todo: conditionals
+    void conditionals() {
+        // todo if
+        // todo else-if
+    }
+    
+    // todo Switch
+    void switches() {
+        // * switch( parameterValueToCheck ) {}
+        // * case parameterValueToCheck:
+            // code...
+            // ? break;
+        // * repeat above...
+        // * default:
+            // code...
+    };
+    
+    // todo ternary
+    void ternary() {
+        // * The ternary operator consists of three pieces;
+            // ? the condition,
+            // ? the return value if the condition is true,
+            // ? and the return value if the condition is false.
+        
+    }
+    // todo Strings
 }
