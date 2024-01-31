@@ -1,45 +1,21 @@
 public class FirstJavaClass {
     
+    // * Conditionals // If, If-Else, & Else Statements
     public void conditionals() {
         
-        // * if (condition) {
-            // ? What to do if condition is true
-            // ? can have 1 or more if statements
-        // * }
-        
-        // * else if (condition) {
-            // ? What to do if 2nd condition is true
-            // ? Always following an if statemnt
-            // ? can have as many else if statements
-        // * }
-        
-        // ! else (condition) {
-            // ? What to do if none of the conditions are true
-            // ? can have 1 or NO else statment
-        // ! }
-        // "continue" and "break" statements can be used in loops
-        
-        int num1 = 4;
-        int num2 = 6;
-        if ( Double.compare(num1, num2) == 0 ) { // ? compare to "if ( num1 == num2 ) {}"
+        double double1 = 123d;
+        double double2 = 456d;
+        if ( Double.compare(double1, double2) == 0 ) { // ? compare to "if ( double1 == double2 ) {}"
             System.out.println("numbers are equal");
-        } else if ( Double.compare(num1, num2) > 0 ) { // ? compare to else if ( num1 > num2 ) {}
-            System.out.println("num1 is greater than num2");
+        } else if ( Double.compare(double1, double2) > 0 ) { // ? compare to else if ( double1 > double2 ) {}
+            System.out.println("double1 is greater than double2");
         } else {
-            System.out.println("num2 is greater than num1");
+            System.out.println("double2 is greater than double1");
         }
     }
     
-    // todo Switch
+    // * Switches
     void switches() {
-        
-        // * switch( parameterValueToCheck ) {}
-            // * case parameterValueToCheck:
-                // code...
-                // ? break;
-            // * repeat above...
-            // * default:
-                // code...
         
         String city = "Manhattan";
         switch(city) {
@@ -87,22 +63,14 @@ public class FirstJavaClass {
         }
     };
     
-    // todo ternary
+    // * Ternaries
     void ternaries() {
-        // one-line conditional that only gives 2 options... this or that
-        // * The ternary operator consists of three pieces;
-            // ? - the condition
-            // ? - ? the return value if the condition is true,
-            // ? - : and the return value if the condition is false.
-        // format: (condition)? expressionIfTrue : expressionIfFalse
         boolean isCoder = true;
         System.out.println((isCoder)? "yes" : "no");
     }
     
-    // todo Strings
+    // * Strings
     void strings() {
-        // formatted strings
-        // formatted print
         System.out.println("안녕하세요");
         
         String nameInput = System.console().readLine();
