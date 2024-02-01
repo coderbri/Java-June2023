@@ -1,4 +1,4 @@
-import java.util.Scanner;
+// import java.util.Scanner;
 
 public class AlfredTest {
     public static void main(String[] args) {
@@ -7,23 +7,16 @@ public class AlfredTest {
         AlfredQuotes alfredBot = new AlfredQuotes();
         
         // * Guest Greeting Test
-        String greeting = alfredBot.guestGreeting();
+        // String greeting = alfredBot.guestGreeting();
         // System.out.println(greeting);
         
         String guestName = System.console().readLine("\nTo whom do I have the honor of assisting? ");
-        String greetingGuestwDayPeriod = alfredBot.guestGreeting("morning", guestName);
-        String greetingGuest = alfredBot.guestGreeting(guestName);
+        // String greetingGuestwDayPeriod = alfredBot.guestGreeting("morning", guestName);
         // System.out.println(greetingGuestwDayPeriod);
+        String greetingGuest = alfredBot.guestGreeting(guestName);
         System.out.println(greetingGuest);
         
         
-        
-        /* Setting up Scanner to expect User Input
-            Scanner scanner = new Scanner(System.in);
-            ? Testing out Scanner
-            System.out.println("To whom do I have the honor of assisting?");
-            String name = scanner.nextLine();
-        */
         // * Date Announcement
         String askDateFormat = System.console().readLine("\nHow would you like to know the date? (regular/simplified) ");
         
@@ -48,24 +41,22 @@ public class AlfredTest {
         System.out.println(announceDate);
         
         
+        // * Respond To Conversation
+        String conversation1 = "Alexis! Play some low-fi beats.";
+        String alexisResponseTest = alfredBot.respondToConversation(conversation1);
+        System.out.println(alexisResponseTest);
         
+        String conversation2 = "I can't find my yo-yo. Maybe Alfred will know where it is.";
+        String alfredResponseTest = alfredBot.respondToConversation(conversation2);
+        System.out.println(alfredResponseTest);
         
-        // Todo: Make some test greetings, providing any necessary data
-        // String testGreeting = alfredBot.basicGreeting();
-        // String testGuestGreeting = alfredBot.guestGreeting( name, "evening" );
-        // String testDateAnnouncement = alfredBot.dateAnnouncement();
-        // String alexisTest = alfredBot.respondBeforeAlexis( "Alexis! Play some low-fi beats." );
-        // String alfredTest = alfredBot.respondBeforeAlexis( "I can't find my yo-yo. Maybe Alfred will know where it is." );
-        // String notRelevantTest = alfredBot.respondBeforeAlexis( "Maybe that's what Batman is about. Not winning. But failing.." );
-
-        // * Print Test
-        // System.out.println(testGreeting);
+        String conversation3 = "Maybe I should watch the Lion King...";
+        String responseTest = alfredBot.respondToConversation(conversation3);
+        System.out.println(responseTest);
         
-        // System.out.println(testGuestGreeting);
-        // System.out.println(testDateAnnouncement);
-        
-        // System.out.println(alexisTest);
-        // System.out.println(alfredTest);
-        // System.out.println(notRelevantTest);
+        // Alternative: Custom Conversations
+        String customConversation = System.console().readLine("What would you like to talk about? ");
+        String responseTest2 = alfredBot.respondToConversation(customConversation);
+        System.out.println(responseTest2);
     }
 }

@@ -30,5 +30,9 @@ A simple Java program named `FirstJava` designed to illustrate basic console out
 The **Café Java** project is a Java program simulating a café ordering system. Customers place coffee orders, and the program responds with messages based on the order status, indicating whether the order is ready or pending. It calculates and displays the total cost for each order, considering different coffee items and quantities. The simulation involves four customers, each with specific orders, providing a dynamic scenario for testing the program's logic. Additionally, the project showcases the use of variables, conditional statements, and formatted messages to create a realistic interaction between customers and a virtual barista.
 
 ### [003 Alfred Bot](003-Alfred_Bot/)
+The `AlfredBot` Java project is a virtual assistant simulation designed to interact through various greetings and conversations. It features modularization with a main class file (`AlfredQuotes`) encapsulating greeting-related functionalities and a test file (`AlfredTest`) for method verification. The project includes guest greetings, date announcements with regular and simplified formats, and conversation responses based on mentions of "Alexis" or "Alfred." Utilizing Java's standard libraries for date handling, the project emphasizes modularity, readability, and efficient organization. The `AlfredTest` file serves as an interactive testing ground, allowing users to simulate different interactions with Alfred.
+
 
 (more coming soon...)
+### [004 Café Business Logic](#)
+### [005 Puzzling](#)
