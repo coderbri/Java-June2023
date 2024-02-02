@@ -14,7 +14,7 @@
 - Modularization
 - Type Casting
 
-### [D3: Java Fundamentals, Part III](#)
+### [D3: Java Fundamentals, Part III](Lecture-Code/D3-Java_Fundamentals-III/)
 - Data Structures and Loops
 - Fixed Arrays
 - ArrayLists
