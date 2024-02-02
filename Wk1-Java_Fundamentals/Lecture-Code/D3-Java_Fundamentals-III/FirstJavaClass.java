@@ -174,6 +174,7 @@ public class FirstJavaClass {
         }
     }
     
+    // * Application of Concepts
     void alphabet() {
         for ( char i = 'a'; i <= 'z'; i++ ) {
             System.out.println(i);
