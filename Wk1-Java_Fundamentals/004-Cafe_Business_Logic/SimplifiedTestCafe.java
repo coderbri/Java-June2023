@@ -8,6 +8,9 @@ public class SimplifiedTestCafe {
         System.out.printf("Purchases needed by week 10: %s\n", cafeAppTest.getStreakGoal());
         
         System.out.println("\n----------- Order Test ----------");
+        double[] prices = { 2.5, 3.0, 4.75, 1.25 };
+        double total = cafeAppTest.getOrderTotal(prices);
+        System.out.printf("Total order price: $%.2f\n", total);
         
     }
 }
