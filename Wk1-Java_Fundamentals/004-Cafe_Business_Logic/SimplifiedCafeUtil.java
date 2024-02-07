@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class SimplifiedCafeUtil {
     
     // * Customer Reward System
@@ -19,5 +21,12 @@ public class SimplifiedCafeUtil {
     }
     
     // * Displaying the Menu
+    void displayMenu( ArrayList<String> menuItems ) {
+        for ( int i = 0; i < menuItems.size(); i ++ ) {
+            String menuItem = menuItems.get(i);
+            System.out.printf("%d %s\n", i, menuItem);
+        }
+    }
+    
     // * Customer Waitlist
 }

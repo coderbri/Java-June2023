@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class SimplifiedTestCafe {
     public static void main(String[] args) {
         SimplifiedCafeUtil cafeAppTest = new SimplifiedCafeUtil();
@@ -12,5 +14,12 @@ public class SimplifiedTestCafe {
         double total = cafeAppTest.getOrderTotal(prices);
         System.out.printf("Total order price: $%.2f\n", total);
         
+        System.out.println("\n------- Display Menu Test -------");
+        ArrayList<String> menuItems = new ArrayList<>();
+        menuItems.add("drip coffee");
+        menuItems.add("cappuccino");
+        menuItems.add("latte");
+        menuItems.add("mocha");
+        cafeAppTest.displayMenu(menuItems);
     }
 }
