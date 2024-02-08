@@ -21,5 +21,9 @@ public class SimplifiedTestCafe {
         menuItems.add("latte");
         menuItems.add("mocha");
         cafeAppTest.displayMenu(menuItems);
+        
+        System.out.println("\n----- Customer Waitlist Test ----");
+        ArrayList<String> customers = new ArrayList<>();
+        cafeAppTest.addCustomer(customers);
     }
 }
