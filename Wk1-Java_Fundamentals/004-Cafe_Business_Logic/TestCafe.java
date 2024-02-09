@@ -6,12 +6,16 @@ public class TestCafe {
         System.out.println("\n===== Welcome to Café Java! =====");
         
         System.out.println("\n-------- Steak Goal Test --------");
-        // System.out.printf("Purchases needed by week 10: %s\n", cafeJava.getStreakGoal());
+        int numWeeks = 15;
+        // numWeeks = 20;
+        // numWeeks = 50;
+        System.out.printf("Purchases needed by week 10: %s\n", cafeJava.getStreakGoal());
+        System.out.printf("Purchases needed by week %d: %s\n", numWeeks, cafeJava.getStreakGoal(numWeeks));
         
         System.out.println("\n----------- Order Test ----------");
-        // double[] prices = { 2.5, 3.0, 4.75, 1.25 };
-        // double total = cafeJava.getOrderTotal(prices);
-        // System.out.printf("Total order price: $%.2f\n", total);
+        double[] prices = { 2.5, 3.0, 4.75, 1.25 };
+        double total = cafeJava.getOrderTotal(prices);
+        System.out.printf("Total order price: $%.2f\n", total);
         
         System.out.println("\n------- Display Menu Test -------");
         // ? Define menu items and their corresponding prices
@@ -27,7 +31,6 @@ public class TestCafe {
         coffeePrices.add(3.00);
         coffeePrices.add(4.75);
         coffeePrices.add(2.50);
-        
         cafeJava.displayMenu(menuItems, coffeePrices);
         
         System.out.println("\n----- Customer Waitlist Test ----");
