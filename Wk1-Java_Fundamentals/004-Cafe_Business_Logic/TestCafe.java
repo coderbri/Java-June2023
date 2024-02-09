@@ -34,7 +34,7 @@ public class TestCafe {
         cafeJava.displayMenu(menuItems, coffeePrices);
         
         System.out.println("\n----- Customer Waitlist Test ----");
-        // ArrayList<String> customers = new ArrayList<>();
-        // cafeJava.addCustomer(customers);
+        ArrayList<String> customers = new ArrayList<>();
+        cafeJava.addCustomers(customers);
     }
 }

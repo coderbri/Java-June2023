@@ -67,8 +67,8 @@ public class CafeUtil {
     }
     
     
-    // ! Customer Waitlist
-    public void addCustomer( ArrayList<String> customers ) {
+    // * Customer Waitlist
+    public void addCustomers( ArrayList<String> customers ) {
         while (true) {
             String userName = System.console().readLine( "\nPlease enter your name (type 'q' to quit): " );
             if ( userName.equalsIgnoreCase("q") ) {
@@ -91,10 +91,14 @@ public class CafeUtil {
                         break;
                 }
                 
-                System.out.println("+--- Waitlist ---+");
+                System.out.println("+--------------------------+");
+                System.out.println("|   Café Java - Waitlist   |");
+                System.out.println("+--------------------------+");
+                System.out.println("|  Place  |    Customer    |");
+                System.out.println("+---------+----------------+");
                 for ( int lineIdx = 0; lineIdx < customers.size(); lineIdx++ ) {
                     String customerName = customers.get(lineIdx);
-                    System.out.printf("%d - %s\n", lineIdx+1, customerName);
+                    System.out.printf("|   %-4d  |  %-13s |\n", lineIdx + 1, customerName);
                 }
             }
         }

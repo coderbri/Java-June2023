@@ -206,41 +206,40 @@ Overall, the `addCustomer` method efficiently manages the waitlist by continuous
 
 **CafeUtil.java**
 ```java
-public void addCustomer( ArrayList<String> customers ) {
-  
-   while (true) {
-       String userName = System.console().readLine( "\nPlease enter your name (type 'q' to quit): " );
-       if ( userName.equalsIgnoreCase("q") ) {
-           System.out.println("\nExiting waitlist...");
-           break;
-       } else {
-           // Add the customer to the waitlist immediately upon entering their name
-           customers.add(userName);
-           // Calculate the position of the customer in line
-           int position = customers.size();
-          
-           // Greet the customer and provide a descriptive message based on their position in line
-           System.out.printf("\nHello, %s! ", userName);
-           switch (position) {
-               case 1:
-                   System.out.println("Your order will be ready shortly.");
-                   break;
-               case 2:
-                   System.out.println("You're next in line.");
-                   break;
-               default:
-                   System.out.printf("There are %d people in front of you.\n", position);
-                   break;
-           }
-          
-           // Display the waitlist
-           System.out.println("+--- Waitlist ---+");
-           for ( int lineIdx = 0; lineIdx < customers.size(); lineIdx++ ) {
-               String customerName = customers.get(lineIdx);
-               System.out.printf("%d - %s\n", lineIdx+1, customerName);
-           }
-       }
-   }
+public void addCustomers( ArrayList<String> customers ) {
+    while (true) {
+        String userName = System.console().readLine( "\nPlease enter your name (type 'q' to quit): " );
+        if ( userName.equalsIgnoreCase("q") ) {
+            System.out.println("\nExiting waitlist...");
+            break;
+        } else {
+            customers.add(userName);
+            int position = customers.size();
+            
+            System.out.printf("\nHello, %s! ", userName);
+            switch (position) {
+                case 1:
+                    System.out.println("Your order will be ready shortly.");
+                    break;
+                case 2:
+                    System.out.println("You're next in line.");
+                    break;
+                default:
+                    System.out.printf("There are %d people in front of you.\n", position);
+                    break;
+            }
+            
+            System.out.println("+--------------------------+");
+            System.out.println("|   Café Java - Waitlist   |");
+            System.out.println("+--------------------------+");
+            System.out.println("|  Place  |    Customer    |");
+            System.out.println("+---------+----------------+");
+            for ( int lineIdx = 0; lineIdx < customers.size(); lineIdx++ ) {
+                String customerName = customers.get(lineIdx);
+                System.out.printf("|   %-4d  |  %-13s |\n", lineIdx + 1, customerName);
+            }
+        }
+    }
 }
 ```
 
@@ -255,4 +254,25 @@ public class TestCafe {
        cafeAppTest.addCustomer(customers);
    }
 }
+```
+
+**Console:**
+```bash
++--------------------------+
+|   Café Java - Waitlist   |
++--------------------------+
+|  Place  |    Customer    |
++---------+----------------+
+|   1     |  coderBri      |
+|   2     |  Jane Doe      |
+|   3     |  Hong Seol     |
+|   4     |  Kim Mi-So     |
+|   5     |  Emilia H      |
+|   6     |  Becky         |
+|   7     |  Anya Forger   |
+|   8     |  Loyd          |
+|   9     |  Yor           |
+|   10    |  Yuri Briar    |
+
+# typing 'q' will promit exit message...
 ```
