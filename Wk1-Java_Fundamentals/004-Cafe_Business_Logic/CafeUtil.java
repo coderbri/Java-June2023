@@ -47,11 +47,11 @@ public class CafeUtil {
         System.out.println("+--------------------+");
     }
     
-    void displayMenu( ArrayList<String> menuItems, ArrayList<Double> coffeePrices ) {
+    boolean displayMenu( ArrayList<String> menuItems, ArrayList<Double> coffeePrices ) {
         // Check if the sizes of menuItems and coffeePrices are the same
         if ( menuItems.size() != coffeePrices.size() ) {
             System.out.println("Error: Menu items and prices do not match. Unable to display menu.");
-            return;
+            return false;
         }
         
         System.out.println("+---------------------------+");
@@ -64,6 +64,25 @@ public class CafeUtil {
             System.out.printf("|  %-2d | %-11s | $%.2f |\n", i, menuItems.get(i), coffeePrices.get(i));
         }
         System.out.println("+---------------------------+");
+        return true;
+    }
+    
+    
+    // * Item Price Chart
+    void printPriceChart(String product, double price, int maxQuantity) {
+        System.out.println("+----------------------------+");
+        System.out.printf("|  %-24s  |\n", product);
+        System.out.println("+----------------------------+");
+        System.out.println("|  Qty. |    Price ($USD)    |");
+        System.out.println("+-------+--------------------+");
+        
+        double discount = 0.00; // Initial discount value
+        for (int i = 1; i <= maxQuantity; i++) {
+            double discountedPrice = (price * i) + discount;
+            System.out.printf("|  %-4d |     $%-11.2f   |\n", i, discountedPrice);
+            discount -= 0.50;
+        }
+        System.out.println("+----------------------------+\n");
     }
     
     
@@ -103,9 +122,4 @@ public class CafeUtil {
             }
         }
     }
-    
-    // ! Item Price Chart
-    // TODO 先生Sensei Bonus:
-    // TODO 先輩Senpai Bonus:
-    // void printPriceChart( String product, double price, int maxQuantity ) {}
 }
