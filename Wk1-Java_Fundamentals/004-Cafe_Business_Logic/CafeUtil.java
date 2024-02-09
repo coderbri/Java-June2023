@@ -20,7 +20,7 @@ public class CafeUtil {
     }
     
     // * Sum Up Order Total
-    double getOrderTotal(double[] prices) {
+    public double getOrderTotal(double[] prices) {
         double total = 0.0;
         for (int i=0; i < prices.length; i++){
             total += prices[i];
@@ -30,7 +30,7 @@ public class CafeUtil {
     
     
     // * Displaying the Menu
-    void displayMenu( ArrayList<String> menuItems ) {
+    public void displayMenu( ArrayList<String> menuItems ) {
         // Table Header + Structure
         System.out.println("+--------------------+");
         System.out.println("|  Café Java - Menu  |");
@@ -47,7 +47,7 @@ public class CafeUtil {
         System.out.println("+--------------------+");
     }
     
-    boolean displayMenu( ArrayList<String> menuItems, ArrayList<Double> coffeePrices ) {
+    public boolean displayMenu( ArrayList<String> menuItems, ArrayList<Double> coffeePrices ) {
         // Check if the sizes of menuItems and coffeePrices are the same
         if ( menuItems.size() != coffeePrices.size() ) {
             System.out.println("Error: Menu items and prices do not match. Unable to display menu.");
@@ -69,7 +69,7 @@ public class CafeUtil {
     
     
     // * Item Price Chart
-    void printPriceChart(String product, double price, int maxQuantity) {
+    public void printPriceChart(String product, double price, int maxQuantity) {
         System.out.println("+----------------------------+");
         System.out.printf("|  %-24s  |\n", product);
         System.out.println("+----------------------------+");

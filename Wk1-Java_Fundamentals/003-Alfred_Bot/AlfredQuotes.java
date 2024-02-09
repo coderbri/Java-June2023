@@ -46,7 +46,7 @@ public class AlfredQuotes {
     
     
     // * Respond to Conversation
-    public static String respondToConversation( String conversation ) {
+    public String respondToConversation( String conversation ) {
         if ( conversation.contains("Alexis")) {
             return "Right way. She certainly isn't sophisticated enough for that.";
         } else if ( conversation.contains("Alfred") ) {
