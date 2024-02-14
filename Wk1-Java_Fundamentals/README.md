@@ -33,6 +33,10 @@ The **Café Java** project is a Java program simulating a café ordering system.
 The `AlfredBot` Java project is a virtual assistant simulation designed to interact through various greetings and conversations. It features modularization with a main class file (`AlfredQuotes`) encapsulating greeting-related functionalities and a test file (`AlfredTest`) for method verification. The project includes guest greetings, date announcements with regular and simplified formats, and conversation responses based on mentions of "Alexis" or "Alfred." Utilizing Java's standard libraries for date handling, the project emphasizes modularity, readability, and efficient organization. The `AlfredTest` file serves as an interactive testing ground, allowing users to simulate different interactions with Alfred.
 
 
+### [004 Café Business Logic](004-Cafe_Business_Logic/)
+The Café Business Logic project comprises a set of Java classes designed to facilitate various operations within a café environment. It includes functionalities such as calculating rewards for loyal customers based on a specified duration, summing up the total cost of orders, displaying menus with and without prices, generating price charts for products based on quantity discounts, and managing customer waitlists. These functionalities are encapsulated within the `CafeUtil` class and are invoked and tested through the `TestCafe` class. With its modular and user-friendly design, Café Business Logic provides essential tools for café owners and managers to streamline operations, enhance customer experiences, and optimize business processes.
+
 (more coming soon...)
-### [004 Café Business Logic](#)
-### [005 Puzzling](#)
+### [005 Puzzling](005-Puzzling/)
+...
+<!-- ### [006 Map of Hashmatique](#) -->
