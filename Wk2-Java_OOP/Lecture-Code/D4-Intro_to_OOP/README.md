@@ -9,6 +9,21 @@
 
 This project serves as an introduction to Java Object-Oriented Programming (OOP) using Spring Tool Suite 4. It covers fundamental concepts of OOP and demonstrates their implementation through a simple Animal OOP project.
 
+
+## Table of Contents
+- [What is Java OOP?](#what-is-java-oop)
+    - [Objects and Classes](#objects-and-classes)
+- [Getting Started with Spring Tool Suite](#getting-started-with-spring-tool-suite)
+- [Creating a Java Project](#creating-a-java-project)
+- [Setting Up a Java Class](#setting-up-a-java-class)
+    - [Member Variables](#member-variables)
+    - [Access Modifiers](#access-modifiers)
+    - [Constructors](#constructors)
+        - [Method Overloading](#method-overloading)
+    - [Getters and Setters](#getters-and-setters)
+- [Summary](#summary)
+
+
 ## What is Java OOP?
 
 Java OOP (Object-Oriented Programming) is a programming paradigm that revolves around the concept of "objects," which can contain data and code to manipulate that data. OOP provides several benefits, including modularity, flexibility, scalability, and reusability:
