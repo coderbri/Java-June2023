@@ -36,7 +36,12 @@ The `AlfredBot` Java project is a virtual assistant simulation designed to inter
 ### [004 Café Business Logic](004-Cafe_Business_Logic/)
 The Café Business Logic project comprises a set of Java classes designed to facilitate various operations within a café environment. It includes functionalities such as calculating rewards for loyal customers based on a specified duration, summing up the total cost of orders, displaying menus with and without prices, generating price charts for products based on quantity discounts, and managing customer waitlists. These functionalities are encapsulated within the `CafeUtil` class and are invoked and tested through the `TestCafe` class. With its modular and user-friendly design, Café Business Logic provides essential tools for café owners and managers to streamline operations, enhance customer experiences, and optimize business processes.
 
-(more coming soon...)
+
 ### [005 Puzzling](005-Puzzling/)
-...
+The PuzzleJava project is designed to assess problem-solving skills and familiarity with the language by presenting various challenges related to client-side operations. The project introduces the usage of the Random class to generate random values and includes methods to tackle specific tasks such as generating random numbers, letters, and passwords of varying lengths. Additionally, it provides functionality to shuffle arrays in a pseudorandom manner, crucial for ensuring the randomness and security of generated passwords.
+
+(more coming soon...)
+
 <!-- ### [006 Map of Hashmatique](#) -->
+<!-- ### [007 List of Exceptions](#) -->
+<!-- ### [006 Numbers Game](#) -->
