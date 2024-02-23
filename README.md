@@ -11,8 +11,8 @@ Course Taken: ２０２３年０６月
     - [#004: Café Business Logic](Wk1-Java_Fundamentals/004-Cafe_Business_Logic/)
     - [#005: Puzzling](Wk1-Java_Fundamentals/005-Puzzling/)
     - [#006: Map of Hashmatique](Wk1-Java_Fundamentals/006-Map_of_Hashmatique/)
+    - [#007: List of Exceptions](Wk1-Java_Fundamentals/007-List_of_Exceptions/)
     ---
-    - [#007: List of Exceptions](#)
     - [#008: Numbers Game](#)
     - [#009: Orders & Items](#)
     - [#010: Barista's Challenge](#)

@@ -43,6 +43,9 @@ The **PuzzleJava** project is designed to assess problem-solving skills and fami
 ### [006 Map of Hashmatique](006-Map_of_Hashmatique/)
 **Map of Hashmatique** project is designed to organize a band's song list using a **`HashMap`**. It allows for immediate retrieval of song lyrics based on the song name, enables users to add songs to the list, and provides functionality to print out all tracks with their corresponding lyrics. The project encapsulates this functionality within the `Hashmatique` class, providing a simple and efficient way to manage and display a band's song repertoire.
 
+### [007 List of Exceptions](007-List_of_Exceptions/)
+The "A List of Exceptions" project showcases the use of try-catch blocks in Java to handle type casting exceptions within an ArrayList containing heterogeneous data types. By iterating through the list and attempting to assign each item to an integer variable, the code demonstrates how exceptions, particularly `ClassCastException`, can be gracefully caught and handled. This approach ensures that the program continues execution even when encountering errors, thereby enhancing its robustness and reliability.
+<!-- Through effective error management and debugging assistance provided by the try-catch blocks, the project exemplifies a professional and resilient approach to handling exceptions in Java programming. -->
+
 (more coming soon...)
-<!-- ### [007 List of Exceptions](#) -->
 <!-- ### [006 Numbers Game](#) -->

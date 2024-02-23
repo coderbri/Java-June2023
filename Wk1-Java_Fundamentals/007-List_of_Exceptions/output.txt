@@ -1,0 +1,15 @@
+catch ( ClassCastException e ) {
+    System.out.println(e); 
+   /*
+    java.lang.ClassCastException: class java.lang.String cannot be cast to class java.lang.Integer (java.lang.String and java.lang.Integer are in module java.base of loader 'bootstrap')
+    java.lang.ClassCastException: class java.lang.String cannot be cast to class java.lang.Integer (java.lang.String and java.lang.Integer are in module java.base of loader 'bootstrap')
+    java.lang.ClassCastException: class java.lang.String cannot be cast to class java.lang.Integer (java.lang.String and java.lang.Integer are in module java.base of loader 'bootstrap')
+   */
+    
+    System.out.println(myList.get(i));
+   /*
+    13
+    你好
+    Goodbye World
+   */
+}
