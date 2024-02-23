@@ -45,5 +45,4 @@ Using try-catch blocks in this scenario provides several benefits:
 In summary, the try-catch blocks play a crucial role in ensuring the stability and reliability of the program when dealing with potential exceptions during type casting operations. By handling exceptions effectively, the code demonstrates a more professional and robust approach to error management.
 
 ---
-
-Feel free to adjust the content as needed and include any additional details or sections you deem necessary.
+<p align="right">Completed: ２０２４年０２月２２日（木）</p>

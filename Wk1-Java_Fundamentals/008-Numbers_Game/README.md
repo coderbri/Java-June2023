@@ -31,3 +31,6 @@ This project is called **Numbers Game**, a simple Java console application where
 ## Final Version:
 
 The final version of the Numbers Game is now free of the above-mentioned bugs and includes additional features such as limiting the number of guesses, skipping prompting messages on the third guess, and allowing the user to play multiple game sessions.
+
+---
+<p align="right">Completed: ２０２４年０２月２２日（木）</p>
