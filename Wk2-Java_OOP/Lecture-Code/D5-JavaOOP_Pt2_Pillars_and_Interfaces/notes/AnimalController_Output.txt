@@ -1,0 +1,44 @@
+Cat neko = new Cat();
+System.out.println(neko.getName()); // >> default name
+neko.setName("Neko-Chan");
+System.out.println(neko.getName()); // >> Neko-Chan
+neko.getEnergy();
+
+animalOne.displayAnimalData();
+myPet.displayAnimalData();
+
+neko.displayCatData();
+neko.huntMice();
+
+Dog buddy = new Dog();
+buddy.setName("Buddy");
+buddy.setColor("golden");
+buddy.displayDogData();
+buddy.run();
+
+
++--- Output ---+
+
+Name: default name
+ - Color: tri-colored
+ - Energy: 20
+Total Animal Count: 3
+
+Name: Loki
+ - Color: classic brown tabby
+ - Energy: 25
+Total Animal Count: 3
+
+Name: Neko-Chan
+ - Color: default color
+ - Energy: 40
+Total Animal Count: 3
+Total Cat Count: 1
+Neko-Chan just hunted mice. 30 energy remaining.
+
+Name: Buddy
+ - Color: golden
+ - Energy: 50
+Total Animal Count: 4
+Total Dog Count: 1
+Buddy just ran. 25 energy remaining.

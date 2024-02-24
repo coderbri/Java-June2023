@@ -14,16 +14,16 @@
     - Constructors and Overloading
     - Getters & Setters
     - `this` Keyword
-    - Static Types
 
-### [D5: Java OOP](#)
-- Advanced OOP
+### [D5: Java OOP](Lecture-Code/D5-JavaOOP_Pt2_Pillars_and_Interfaces/)
+- Advanced Java OOP (continued...)
+    - Static
     - Four Pillars of OOP
     - Inheritance
     - More on Packages
 
 ### [D6: Java OOP](#)
-- Advanced OOP (continued...)
+- Advanced Java OOP (continued...)
     - Interface
     - Interface Implementation
     - Annotations
@@ -34,6 +34,6 @@
 ## Projects
 
 (coming soon...)
-<!-- 008 Orders and Items -->
-<!-- 009 Barista's Challenge -->
-<!-- 010 BankAccount -->
+<!-- 009 Orders and Items -->
+<!-- 010 Barista's Challenge -->
+<!-- 011 BankAccount -->
