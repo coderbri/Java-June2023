@@ -15,14 +15,14 @@
     - Getters & Setters
     - `this` Keyword
 
-### [D5: Java OOP](Lecture-Code/D5-JavaOOP_Pt2_Pillars_and_Interfaces/)
+### [D5: Java OOP Pt II - Using Inheritance](Lecture-Code/D5-JavaOOP_Pt2_Pillars_and_Interfaces/)
 - Advanced Java OOP (continued...)
     - Static
     - Four Pillars of OOP
     - Inheritance
     - More on Packages
 
-### [D6: Java OOP](#)
+### [D6: Java OOP Pt III - Abstracts and Interfaces](Lecture-Code/D6-JavaOOP_Pt3_Abstracts_and_Interfaces/)
 - Advanced Java OOP (continued...)
     - Interface
     - Interface Implementation
@@ -34,6 +34,6 @@
 ## Projects
 
 (coming soon...)
-<!-- 009 Orders and Items -->
+<!-- ### [009 Orders and Items](009-Orders_and_Items/) -->
 <!-- 010 Barista's Challenge -->
 <!-- 011 BankAccount -->
