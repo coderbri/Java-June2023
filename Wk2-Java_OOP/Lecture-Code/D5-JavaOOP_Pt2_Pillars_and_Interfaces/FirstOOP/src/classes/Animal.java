@@ -1,19 +1,21 @@
 package classes;
 
 public class Animal {
+	
 //	 * Member Variables - Class Attributes
 	private String color;
 	private double height;
 	private int weight;
 	private String name;
 	protected int energy = 25;
+	private boolean isAlive = true;
 	
 	private static int animalCount;
 	
 /*	* Create a constructor for an Animal Object
-	? This is what the Animal Object in the Controller
-	?	will invoke upon creation.
-	? Default Animal Constructor (for when nothing is specified): */
+ 	? This is what the Animal Object in the Controller
+		will invoke upon creation. */
+//	? Default Animal Constructor (for when nothing is specified):
 	public Animal() {
 		this.color = "default color";
 		this.height = 0.0;
@@ -36,6 +38,24 @@ public class Animal {
 	public void displayAnimalData() {
 		System.out.printf("\nName: %s\n - Color: %s\n - Energy: %s\n", this.name, this.color, this.energy);
 		System.out.printf("Total Animal Count: %s\n", animalCount);
+	}
+	
+	public void eatTreats() {
+		int maxEnergy = 40;
+		
+		if (this.energy < maxEnergy) {
+			this.energy += 5;
+			
+//			Check if energy exceeds the maximum
+			if (this.energy > maxEnergy) {
+				this.energy = maxEnergy;
+				System.out.printf("%s got a treat and is now full! (Energy Level: %s)\n", this.getName(), this.getEnergy());
+			} else {
+				System.out.printf("%s got a treat! (Energy Level: %s)\n", this.getName(), this.getEnergy());
+			}
+		} else {
+			System.out.printf("%s is already full. (Energy Level: %s)\n", this.getName(), this.getEnergy());
+		}
 	}
 	
 //	* Getters & Setters
@@ -87,5 +107,13 @@ public class Animal {
 
 	public void setEnergy(int energy) {
 		this.energy = energy;
+	}
+
+	public boolean isAlive() {
+		return isAlive;
+	}
+
+	public void setAlive(boolean isAlive) {
+		this.isAlive = isAlive;
 	}
 }

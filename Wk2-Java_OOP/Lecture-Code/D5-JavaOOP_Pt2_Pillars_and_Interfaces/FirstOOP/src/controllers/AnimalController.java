@@ -1,6 +1,7 @@
 package controllers;
 
-import classes.Animal; // import the class needed to be able to create object instances
+// import the class needed to be able to create object instances
+import classes.Animal;
 import classes.Cat;
 import classes.Dog;
 
@@ -36,5 +37,20 @@ public class AnimalController {
 		buddy.setColor("golden");
 		buddy.displayDogData();
 		buddy.run();
+		
+//		neko.huntMice();
+//		neko.huntMice();
+//		neko.huntMice();
+		
+		neko.eatTreats();
+		neko.eatTreats();
+		neko.eatTreats();
+		
+		neko.jump();
+		neko.eatTreats();
+		neko.eatTreats();
+		
+		buddy.eatTreats();
 	}
+	
 }
