@@ -1,7 +1,7 @@
-# D5: Java OOP, Part II - Abstracts and Interfaces
+# D5: Java OOP, Part III - Abstracts and Interfaces
 
 <div style="display: flex; justify-content: space-between;">
-    <p>Week ２ Session ２</p>
+    <p>Week ２ Session ３</p>
     <p>２０２４年０２月２８日（水）</p>
 </div>
 
