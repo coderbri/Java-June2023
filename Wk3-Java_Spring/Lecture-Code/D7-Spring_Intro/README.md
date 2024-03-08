@@ -60,6 +60,28 @@
 		return "Hello World";
 	}
     ```
+    For better modularity of routes, this root route can be in the [ProjectName]Application.java file. Directory path: **src/main/java/com.weekThree.firstSpring**(package)**/FirstSpringApplication.java**:
+    ```java
+    import org.springframework.boot.SpringApplication;
+    import org.springframework.boot.autoconfigure.SpringBootApplication;
+    import org.springframework.web.bind.annotation.RequestMapping;
+    import org.springframework.web.bind.annotation.RestController;
+    
+    @RestController
+    @SpringBootApplication
+    public class FirstSpringApplication {
+        public static void main(String[] args) {
+            SpringApplication.run(FirstSpringApplication.class, args);
+        }
+        
+        @RequestMapping("/")
+        public String index() {
+            return "Hello World!";
+        }
+        
+    }
+    ```
+    That way, this will better serve as the entry point of the application.
 
 3. To use Path Variables use the annotation **`@PathVariable`** within the function as well as the data type and variable holding that data.
     ```java

@@ -7,11 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class MainController {
-		
-	@RequestMapping("/")
-	public String index() {
-		return "Hello World!";
-	}
 	
 	// localhost:8080/hello/jane
 	@RequestMapping("/hello/{name}")
