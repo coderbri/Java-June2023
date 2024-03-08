@@ -13,22 +13,33 @@
 ## Starting a Java Spring Project
 1. **New > Spring Starter Project:**
    - Begin by creating a new Spring Starter Project in your IDE.
+   
 2. **The setup is as follows:**
    - Set up your project with the necessary dependencies and configurations. 
-   ![New Spring Starter Setup](./imgs/new-spring-starter-setup.png)
+   <div align="center">
+    <img src="./imgs/new-spring-starter-setup.png" alt="New Spring Starter Project Setup" width="450px" height="auto">
+    </div>
+    
 3. **Click Next.**
 4. **Select the following dependencies:**
    - **Spring Boot DevTools**
    - **Spring Web**
-   ![New Spring Starter Dependencies](./imgs/new-spring-starter-dependencies.png)
+   <div align="center">
+    <img src="./imgs/new-spring-starter-dependencies.png" alt="New Spring Starter Dependencies" width="450px" height="auto">
+    </div>
+    
 5. **Click Finish.**
    - After a short while, the new Java Spring project will be generated.
-   ![Spring Package Manager](./imgs/spring-package-manager.png)
+   <div align="center">
+    <img src="./imgs/spring-package-manager.png" alt="Spring Package Manager" width="450px" height="auto">
+    </div>
 
 ## Configuring Files
 1. **Now we can start by creating our controller by accessing the directory labeled `src/main/java`, and create a package called `controllers`. However, the naming convention is now as follows:**
    - This is known as reverse domain naming. This is the standard to avoid conflicting naming conventions. It should also be all lowercase.
-   ![Package Naming Convention Controllers](./imgs/package-naming-convention-controllers.png)
+   <div align="center">
+    <img src="./imgs/package-naming-convention-controllers.png" alt="Package Naming Convention Controllers" width="450px" height="auto">
+    </div>
 
 6. **Create controller class as usual within the controllers package.**
 
