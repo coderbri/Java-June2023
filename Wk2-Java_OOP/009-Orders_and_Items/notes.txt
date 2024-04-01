@@ -1,0 +1,20 @@
+# Sample Code of the App Simulation
+
+
+The following print statements will render their respective strings as such.
+
+```
+System.out.println(order1); // classes.Order@7344699f
+System.out.printf("Customer: %s\n", order1.customerName); // Customer: Cindhuri
+System.out.printf("Total: $%.2f\n", order1.total); // Total: $0.00
+System.out.printf("%s Price: $%.2f\n", item1.getName(), item1.getPrice()); // Mocha Price: $3.50
+System.out.printf("Ready: %s\n", order1.isReady); // Ready: false
+
+
+===== Welcome to Café Java! =====
+classes.Order@7344699f
+Customer: Cindhuri
+Total: $0.00
+Mocha Price: $3.50
+Ready: false
+```

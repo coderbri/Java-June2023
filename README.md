@@ -16,7 +16,7 @@ Course Taken: ２０２３年０６月
     ---
 
 - **Java OOP**
-    - [#009: Orders & Items](#)
+    - [#009: Orders & Items](Wk2-Java_OOP/009-Orders_and_Items/)
     - [#010: Barista's Challenge](#)
     - [#011: BankAccount](#)
     - [#012: Coffeedore 64](#)
