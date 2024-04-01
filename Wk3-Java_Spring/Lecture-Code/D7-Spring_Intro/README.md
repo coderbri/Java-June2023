@@ -7,8 +7,9 @@
 
 
 ### Table of Contents
-- Starting a Java Spring Project
-- Configuring Files
+- [Starting a Java Spring Project](#starting-a-java-spring-project)
+- [Configuring Files](#configuring-files)
+- [Setting up the Controller](#setting-up-the-controller)
 
 ## Starting a Java Spring Project
 1. **New > Spring Starter Project:**
@@ -34,18 +35,21 @@
     <img src="./imgs/spring-package-manager.png" alt="Spring Package Manager" width="450px" height="auto">
     </div>
 
+
 ## Configuring Files
-1. **Now we can start by creating our controller by accessing the directory labeled `src/main/java`, and create a package called `controllers`. However, the naming convention is now as follows:**
+
+6. **Now we can start by creating our controller by accessing the directory labeled `src/main/java`, and create a package called `controllers`. However, the naming convention is now as follows:**
    - This is known as reverse domain naming. This is the standard to avoid conflicting naming conventions. It should also be all lowercase.
    <div align="center">
     <img src="./imgs/package-naming-convention-controllers.png" alt="Package Naming Convention Controllers" width="450px" height="auto">
     </div>
 
-6. **Create controller class as usual within the controllers package.**
+7. **Create controller class as usual within the controllers package.**
 
 
-## Setting up the Controller.
-1. Add the **`@RestController`** annotation on top of the class name. Import it with shortcut Command ⌘ + Shift ⇧ + O:
+## Setting up the Controller
+
+8. Add the **`@RestController`** annotation on top of the class name. Import it with shortcut Command ⌘ + Shift ⇧ + O:
     ```java
     import org.springframework.web.bind.annotation.RestController;
             
@@ -53,7 +57,7 @@
     public class MainController {}
     ```
 
-2. Now create the first route using the **`@RequestMapping`** annotation:
+9. Now create the first route using the **`@RequestMapping`** annotation:
     ```java
     @RequestMapping("/")
 	public String index() {
@@ -83,7 +87,7 @@
     ```
     That way, this will better serve as the entry point of the application.
 
-3. To use Path Variables use the annotation **`@PathVariable`** within the function as well as the data type and variable holding that data.
+10. To use Path Variables use the annotation **`@PathVariable`** within the function as well as the data type and variable holding that data.
     ```java
     // localhost:8080/hello/jane
 	@RequestMapping("/hello/{name}")
@@ -91,7 +95,7 @@
 		return "<h1>你好，" + name +"。</h1>";
 	}
 
-4. The **`@RequestParam`** annotation is used to extract query parameters from the request URL. In this example, it retrieves the values of `firstName` and `lastName` query parameters and returns a customized greeting message based on the provided parameters. An if-else statement is used to handle cases where one or both parameters are not provided.
+11. The **`@RequestParam`** annotation is used to extract query parameters from the request URL. In this example, it retrieves the values of `firstName` and `lastName` query parameters and returns a customized greeting message based on the provided parameters. An if-else statement is used to handle cases where one or both parameters are not provided.
     ```java
 	// localhost:8080/hello?firstName=Jane&lastName=Doe
 	@RequestMapping("/hello")
@@ -111,4 +115,3 @@
 	}
     ```
     *This also is useful for GET requests because it allows you to extract data from the request URL.
-
