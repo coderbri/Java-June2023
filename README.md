@@ -4,7 +4,7 @@ Course Taken: ２０２３年０６月
 
 ### Projects List
 
-- **Java Fundamentals**
+- [Week 1] **Java Fundamentals**
     - [#001: First Java](Wk1-Java_Fundamentals/001-First_Java)
     - [#002: Café Java](Wk1-Java_Fundamentals/002-Cafe_Java)
     - [#003: Alfred Bot](Wk1-Java_Fundamentals/003-Alfred_Bot/)
@@ -13,10 +13,13 @@ Course Taken: ２０２３年０６月
     - [#006: Map of Hashmatique](Wk1-Java_Fundamentals/006-Map_of_Hashmatique/)
     - [#007: List of Exceptions](Wk1-Java_Fundamentals/007-List_of_Exceptions/)
     - [#008: Numbers Game](Wk1-Java_Fundamentals/008-Numbers_Game/)
-    ---
 
-- **Java OOP**
+- [Week 2] **Java OOP**
     - [#009: Orders & Items](Wk2-Java_OOP/009-Orders_and_Items/)
+    ---
     - [#010: Barista's Challenge](#)
     - [#011: BankAccount](#)
     - [#012: Coffeedore 64](#)
+
+<!-- - [Week 3] **Java Spring**
+    -  -->
