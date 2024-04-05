@@ -13,7 +13,7 @@ public class ViewController {
 	
 	@GetMapping("")
 	public String indexView( Model viewModel ) {
-		viewModel.addAttribute("cat", "猫");
+		viewModel.addAttribute("cat", "猫 māo");
 		return "index.jsp";
 	}
 	
@@ -27,6 +27,7 @@ public class ViewController {
 		pets.add("goldfish");
 		pets.add("parrots");
 		viewModel.addAttribute("allPets", pets);
+		System.out.println(pets);
 		return "demo.jsp";
 	}
 }

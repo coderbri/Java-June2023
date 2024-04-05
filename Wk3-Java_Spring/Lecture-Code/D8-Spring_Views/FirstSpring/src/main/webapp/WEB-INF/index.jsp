@@ -13,15 +13,22 @@
 		<script type="text/javascript" src="/js/index.js"></script>
 		<title>D8: First Spring View</title>
 	</head>
-	<body>
-		
-		<div class="container-fluid">		
-			<h1>Hello World</h1>
-			<h2>This is my first JSP file!</h2>
-			
-			<h3>This word is from the controller: 
-				<c:out value="${cat}"/>
-			</h3>
+	<body class="bg-secondary-subtle">
+		<div class="container-fluid">
+			<div class="col-12 col-md-6">
+				<div class="bg-white rounded p-3 mt-2">
+					<h1 class="fw-bold text-center">Hello World</h1>
+					
+					<div id="Body__Text" class="mt-2">
+						<h2>My first JSP file!</h2>
+						
+						<h2 class="fw-semibold mt-2">Rendering with c:out</h2>
+						<p>This word is from the controller:
+							<span class="fw-bolder"><c:out value="${cat}"/></span>
+						</p>
+					</div>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>
