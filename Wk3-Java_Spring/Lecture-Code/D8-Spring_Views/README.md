@@ -1,49 +1,44 @@
-# D8: Java Spring, Part II - Building the Front End
+# D8: Java Spring: Views, Part II - Building the Front End
 
 <div style="display: flex; justify-content: space-between;">
     <p>Week ３ Session ２</p>
     <p>２０２４年０３月０７日（木）</p>
 </div>
 
-### Table of Contents
+This repository contains the follow-along code for an introductory lecture on Java Spring Views. The lecture covers various aspects of setting up and rendering JavaServer Pages (JSPs), resolving common errors, using Java Server Pages Standard Tag Library (JSTL) tags, and integrating static content and Bootstrap for styling.
 
+## Table of Contents
+- [1. Rendering JSP](#1-rendering-jsp)
+    - [Resolving Common Errors Within JSP Files](#resolving-common-errors-within-jsp-files)
+    - [Installing the Emmet Tool](#installing-the-emmet-tool)
+- [2. About JSTL Tags](#2-about-jstl-tags)
+- [3. Adding Static Content + Bootstrap](#3-adding-static-content--bootstrap)
 
-## Setting up Java Server Pages
+**Note:** Further details on each main section can be found by following the linked titles.
 
-1. 
+## 1. [Rendering JSP](./notes/1-Rendering-JSP.md)
+To render JSP files in a Java Spring project, follow these steps:
+- Install necessary tools in Eclipse.
+- Add dependencies in the `pom.xml` file.
+- Create JSP files in the appropriate directory (`src/main/webapp/WEB-INF/`).
+- Configure `application.properties` file.
+- Use the `@Controller` annotation for rendering views.
 
+### Resolving Common Errors Within JSP Files
+Handle common errors related to JSP setup by adjusting project facets and configurations.
 
-## Dynaming Rendering
-<!-- In short:
-    1. Create teh `src/main/webapp` folder if it does not exist.
-    2. Create teh `src/main/webapp/WEB-INF` folder.
-    3. Edit the `src/main/resources/application.properties` file to contain the following:
-     ```
-    spring.mvc.view.prefix-/WEB-INF/
-    ```
--->
-1. go to the directory that just says **src/**. Within it we access **main/webapp**, but instead of using the webapp directory we'll need to create a folder called **WEB-INF** because [ explain why this is better... ]
-    <!-- possibly for deployment reasons -->
-    This directory will live within the webapp folder. therefore the path in which JSP files will be created will be in the **src/main/webapp/WEB-INF**.
+### Installing the Emmet Tool
+Install and configure the Emmet plugin for HTML/XML coding to enhance productivity.
 
-2. now we'll need to go to the **application.properties** file which resides in this path: **src/main/resources/templates**. There will most likely be nothing in it but this is where we would put the following:
-    ```
-    spring.mvc.view.prefix-/WEB-INF/
-    ```
+## 2. [About JSTL Tags](./notes/2-About-JSTL-Tags.md)
+Learn about JSP Standard Tag Library (JSTL) and its usage for dynamic population of templates:
+- Setup dependencies in the `pom.xml` file.
+- Use `c:out` tag for dynamic data insertion.
+- Utilize `forEach` tag for iterating over collections.
+- Pass data to views using the `Model` object and understand dependency injection.
 
-
-## Creating a JSP File
-1. within the WEB-INF folder, right-click to create **New > Other > Web > JSP File**. Then name the file. To be able to see the settings to create a JSP file, the sts extension, **Eclipse Enterprise Java and Web Developer Tools** needs to be installed.
-
-2. Click Next.
-
-3. This is the Select JSP Template screen where we can preview the JSP file's layout before creation. We can create our own with the necessary JSTL tags and HTML setup by clicking the JSP Templates link at the bottom. There we can create new templates or edit existing ones.
-
-4. After selecting a template, click Finish.
-
-5. To avoid having an error that tends to appear at the beginning of a JSP file, resolve it by right-clicking on the projct folder **Properties > Project Facets**.
-    There change the **Dynamic Web Module** from 2.5 to **5.0**. That's it! Now **Apply & Close**.
-
-Notes:
-- to comment out in JSP files, use the command: Command ⌘ + Shift ⇧ + C.
-
+## 3. [Adding Static Content + Bootstrap](./notes/3-Adding-Static-Files.md)
+Integrate static content and Bootstrap for styling:
+- Organize static files in the project directory.
+- Link external resources (CSS and JS files) in JSP.
+- Integrate Bootstrap framework for enhanced styling.
