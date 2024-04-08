@@ -21,5 +21,6 @@ Course Taken: ２０２３年０６月
     - [#011: BankAccount](#)
     - [#012: Coffeedore 64](#)
 
-<!-- - [Week 3] **Java Spring**
-    -  -->
+- [Week 3] **Java Spring**
+    - [#018: Routing Practice](Wk3-Java_Spring/018-Routing_Practice/)
+    <!-- - [#019: Hello Human](#) -->

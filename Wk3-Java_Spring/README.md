@@ -18,7 +18,7 @@
 - Implementing Bootstrap Styling
 - JSTL Loops
 
-### [D9: Java Spring](#)
+### [D9: Java Spring Methods, Session & Forms](Lecture-Code/D9-Spring-Methods-Forms-Session/)
 - Session (in Java)
 - Form Submission
 - GET vs POST
@@ -26,5 +26,9 @@
 - Flash Data
 - Dependency Injection
 
+
 ## Projects
 
+### [018 Routing Practice](018-Routing_Practice/)
+
+The **018 Routing Practice** project illustrates the usage of Spring Framework's `@RequestMapping` annotation for managing routes to deliver Bible texts. The **MainController** class acts as a REST controller, handling HTTP requests and generating responses. Three routes are defined: [/routes] for welcoming users, [/routes/today] for today's Bible text, and [/routes/tomorrow] for tomorrow's text, each providing the specified response.
