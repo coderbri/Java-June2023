@@ -32,3 +32,10 @@
 ### [018 Routing Practice](018-Routing_Practice/)
 
 The **018 Routing Practice** project illustrates the usage of Spring Framework's `@RequestMapping` annotation for managing routes to deliver Bible texts. The **MainController** class acts as a REST controller, handling HTTP requests and generating responses. Three routes are defined: [/routes] for welcoming users, [/routes/today] for today's Bible text, and [/routes/tomorrow] for tomorrow's text, each providing the specified response.
+
+
+### [019 Hello Human (`@RequestParam` Practice)](019-Hello_Human/)
+
+The **019 Hello Human** project demonstrates building a RESTful API in Java with Spring Boot. It provides endpoints for greeting messages based on user input parameters like name and repetition count. Using the `@RequestParam` annotation, it handles parameter extraction from request URLs. The project includes endpoints for greeting by name, full name, and repeated greeting, showcasing parameter handling and endpoint design.
+
+<!-- ### 020 `@PathVariable` Practice -->

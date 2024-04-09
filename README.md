@@ -23,4 +23,5 @@ Course Taken: ２０２３年０６月
 
 - [Week 3] **Java Spring**
     - [#018: Routing Practice](Wk3-Java_Spring/018-Routing_Practice/)
-    <!-- - [#019: Hello Human](#) -->
+    - [#019: Hello Human (`@RequestParam` Practice)](Wk3-Java_Spring/019-Hello_Human/)
+    <!-- - [#020: Path Variable Practice](#) -->
