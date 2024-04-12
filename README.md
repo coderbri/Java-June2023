@@ -18,10 +18,14 @@ Course Taken: ２０２３年０６月
     - [#009: Orders & Items](Wk2-Java_OOP/009-Orders_and_Items/)
     ---
     - [#010: Barista's Challenge](#)
-    - [#011: BankAccount](#)
-    - [#012: Coffeedore 64](#)
+    <!-- - [#011: BankAccount](#) -->
+    <!-- - [#012: Coffeedore 64](#) -->
 
 - [Week 3] **Java Spring**
     - [#018: Routing Practice](Wk3-Java_Spring/018-Routing_Practice/)
     - [#019: Hello Human (`@RequestParam` Practice)](Wk3-Java_Spring/019-Hello_Human/)
-    <!-- - [#020: Path Variable Practice](#) -->
+    - [#020: `@PathVariable` Practice](Wk3-Java_Spring/020-PathVariable_Practice/)
+    <!-- ### 021 Hopper's Receipt -->
+    <!-- ### 022 Display Date  -->
+    <!-- ### 023 Fruity Loops  -->
+    <!-- ### 024 Counter  -->
