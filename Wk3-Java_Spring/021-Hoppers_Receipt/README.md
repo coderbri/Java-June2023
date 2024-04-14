@@ -4,7 +4,7 @@
 
 **Hopper's Receipt** is a Java Spring MVC project designed to learn how to render views using JSP files and incorporate JSTL tags for data presentation and formatting. The project emulates a receipt generation system, displaying various purchase details on a web page.
 
-_**Note**: For how to set up the configurations to render data from the back-end to the front-end, go [here](../Setting_up_views_in_Java_Spring.md)._
+_**Note**: For how to set up the configurations to render data from the back-end to the front-end, go [here](../notes/Setting_up_views_in_Java_Spring.md)._
 
 <div align="center">
 <img src="./imgs/021-hoppers-receipt-demo.png" width="350px" height="auto">
