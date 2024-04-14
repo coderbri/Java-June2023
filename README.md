@@ -25,7 +25,7 @@ Course Taken: ２０２３年０６月
     - [#018: Routing Practice](Wk3-Java_Spring/018-Routing_Practice/)
     - [#019: Hello Human (`@RequestParam` Practice)](Wk3-Java_Spring/019-Hello_Human/)
     - [#020: `@PathVariable` Practice](Wk3-Java_Spring/020-PathVariable_Practice/)
-    <!-- ### 021 Hopper's Receipt -->
+    - [#021 Hopper's Receipt](Wk3-Java_Spring/021-Hoppers_Receipt/)
     <!-- ### 022 Display Date  -->
     <!-- ### 023 Fruity Loops  -->
     <!-- ### 024 Counter  -->
