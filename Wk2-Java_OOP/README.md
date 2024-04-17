@@ -34,6 +34,10 @@
 ## Projects
 
 (coming soon...)
-<!-- ### [009 Orders and Items](009-Orders_and_Items/) -->
-<!-- 010 Barista's Challenge -->
+### [009 Orders and Items](009-Orders_and_Items/)
+...
+
+### [010 Barista's Challenge](010-Baristas_Challenge/)
+...
+
 <!-- 011 BankAccount -->
