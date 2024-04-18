@@ -38,6 +38,6 @@
 ...
 
 ### [010 Barista's Challenge](010-Baristas_Challenge/)
-...
+The **Barista's Challenge** project is a Java application designed to simulate an ordering system for a cafe. It allows users to create orders, add items to their orders, and view receipts for their orders. The project includes classes for `Item` and `Order`, where `Item` represents menu items with their respective prices, and `Order` represents individual orders placed by customers. The main functionality includes adding items to orders, calculating the total price of an order, and displaying a receipt with detailed information about the order. Error handling is implemented to handle scenarios where an order has no items. The project serves as a practical exercise in object-oriented programming and demonstrates the use of ArrayLists in Java.
 
 <!-- 011 BankAccount -->
