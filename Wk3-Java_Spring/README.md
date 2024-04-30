@@ -48,6 +48,11 @@ The **020 `PathVariable` Practice** Java Spring Boot project serves as a practic
 
 **021 Hopper's Receipt** is a Java Spring MVC project focused on **learning how to render views using JSP files and integrate JSTL tags** for data presentation and formatting. The project simulates a receipt generation system where purchase details like customer name, item name, price, description, and vendor are displayed on a web page. In the project's controller class, data is populated into the Model object, which holds the information intended for display. JSTL tags like `<c:out>` are used to present data from the model, while `<fmt:formatNumber>` is employed to format numeric values, such as the price, ensuring they are displayed correctly. The project serves as a practical exercise in implementing these dynamic rendering concepts and enhancing proficiency in Java Spring MVC development.
 
-<!-- ### 022 Display Date  -->
+
+### [022 Display Date & Time](022-Display_Date/)
+
+The **022 Display Date & Time** project showcases a web application that displays the current date and time across three main pages: home, date, and time. Utilizing Model-View-Controller architecture, the MainController class handles requests and renders views implemented with JavaServer Pages (JSP) files.
+
+
 <!-- ### 023 Fruity Loops  -->
 <!-- ### 024 Counter  -->
