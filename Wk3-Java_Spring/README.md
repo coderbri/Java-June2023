@@ -54,5 +54,9 @@ The **020 `PathVariable` Practice** Java Spring Boot project serves as a practic
 The **022 Display Date & Time** project showcases a web application that displays the current date and time across three main pages: home, date, and time. Utilizing Model-View-Controller architecture, the MainController class handles requests and renders views implemented with JavaServer Pages (JSP) files.
 
 
-<!-- ### 023 Fruity Loops  -->
+### [023 Fruity Loops](023-Fruity_Loops/)
+
+**Fruity Loops** is a Java Spring Boot MVC project aimed at mastering dynamic rendering of lists in templates using the `c:forEach` JSTL tag and integrating models. The project simulates a fruit store scenario where a dynamic list of fruits with prices is displayed on the web page. The rendering logic involves the controller populating a list of `Item` objects representing fruits, passed to the view as an attribute named "fruits". Within the JSP view (`index.jsp`), the `c:forEach` tag iterates over each fruit, generating table rows with columns for the fruit name and price. Conditional logic colors fruit names orange if they start with "G". Prices are formatted using the `<fmt:formatNumber>` tag. This approach ensures smooth, dynamic display of data, enhancing user interaction with the application.
+
+
 <!-- ### 024 Counter  -->
